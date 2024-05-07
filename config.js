@@ -57,8 +57,8 @@ global.THUMB_IMAGE = process.env.THUMB_IMAGE || process.env.IMAGE || "https://te
 
 
 global.devs = "254700143167" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "254700143167";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "254700143167";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2349045054729;
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2349045054729";
 
 
 
@@ -83,7 +83,7 @@ global.readmessagefrom = process.env.READ_MESSAGE_FROM || "254700143167";
 
 
 //========================= [ AUTO SAVE & READ STATUS ] =========================\\
-global.read_status = process.env.AUTO_READ_STATUS || "true"
+global.read_status = process.env.AUTO_READ_STATUS || "false"
 global.save_status = process.env.AUTO_SAVE_STATUS || "false"
 global.save_status_from =  process.env.SAVE_STATUS_FROM  || "254xxxxxxxxx";
 global.read_status_from =  process.env.READ_STATUS_FROM  ||  "254700143167";
@@ -92,7 +92,7 @@ global.api_smd = "https://api-smd.onrender.com" //  || "https://api-smd-1.vercel
 global.scan = "https://session.giftedtechnexus.co.ke";
 
 
-global.SESSION_ID = process.env.SESSION_ID ||  "" ; // PUT your SESSION_ID 
+global.SESSION_ID = process.env.SESSION_ID ||  "Gifted;;;eyJub2lzZUtleSI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoic01rNEU2WFBOWWZueU9KeGxQVHJ6QXFaMXV2K2lZOUw2SFdXSzVJL1dVVT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiWXVIVzc0Kys3eTRIUWh2dnRuRHI1YUVwQ1ZNcVd5RUpLbXZTWFpocFh6Zz0ifX0sInBhaXJpbmdFcGhlbWVyYWxLZXlQYWlyIjp7InByaXZhdGUiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJvSitIbDJrUCtVL1RrcXpBY2UxWGlLUVdyci9SWEJ3OXc4QjlTMFdueUU4PSJ9LCJwdWJsaWMiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiI0eWoxcGkycjYyOUZ2N2wxaGx6eVNvaEIwRVhsdnQ0ZmtsTzNVVFppU25rPSJ9fSwic2lnbmVkSWRlbnRpdHlLZXkiOnsicHJpdmF0ZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6IklOTWV0VHI1MHZncUpqWTNDRE5QY3cvcGY1TmFMR1lyeUlhenI2Mjh1bFE9In0sInB1YmxpYyI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InZRWmtQSHlBdVkzdjNFeC9DRmo4WGVsYnJ2MUs2LzZtNlJSUFErYUR4QUE9In19LCJzaWduZWRQcmVLZXkiOnsia2V5UGFpciI6eyJwcml2YXRlIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoiR00wODFWT2owS2h4d3NMN0NSUHhyS3VoSHVMZVdHaXpWR0l5d1o2NSsyQT0ifSwicHVibGljIjp7InR5cGUiOiJCdWZmZXIiLCJkYXRhIjoicExjM0grSkFQcnNtQ0dLM3czK2l1TE5uSjIvYUh5Qk43TW9pR296VEJRUT0ifX0sInNpZ25hdHVyZSI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6InB0bUNsOERQbUgyWS9SREpYOFNvOUlkYm5ZRXREeUhmcm1VOHc5UEVtalVPb2toaUZUNUYwY0RKQTBqbVVOZUl2ZmZjZzRBK3VmK3hGVW1Ta2FyTGpnPT0ifSwia2V5SWQiOjF9LCJyZWdpc3RyYXRpb25JZCI6NDIsImFkdlNlY3JldEtleSI6ImpPeGszS3NOZ0lGV2h5Q20weTdmOWc0N21nMW9pQjNlZjV0SHAxZ1VEdkE9IiwicHJvY2Vzc2VkSGlzdG9yeU1lc3NhZ2VzIjpbXSwibmV4dFByZUtleUlkIjozMSwiZmlyc3RVbnVwbG9hZGVkUHJlS2V5SWQiOjMxLCJhY2NvdW50U3luY0NvdW50ZXIiOjAsImFjY291bnRTZXR0aW5ncyI6eyJ1bmFyY2hpdmVDaGF0cyI6ZmFsc2V9LCJkZXZpY2VJZCI6IllxeGlDeDdVU1JXTFg5eXBCbEZTWGciLCJwaG9uZUlkIjoiMjkzZTU4MDktMDU4OS00ZjVmLTk1N2ItNzEwN2U1ODQ4ODljIiwiaWRlbnRpdHlJZCI6eyJ0eXBlIjoiQnVmZmVyIiwiZGF0YSI6Ims5em5ZcUc3eDYzRWFFTlpSbkQ1S0hFRW96ND0ifSwicmVnaXN0ZXJlZCI6dHJ1ZSwiYmFja3VwVG9rZW4iOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJOWklrSmZwOHJqZmo2d2tOdHg3UGpsMkRwZmM9In0sInJlZ2lzdHJhdGlvbiI6e30sInBhaXJpbmdDb2RlIjoiRUdLNDY4WEwiLCJtZSI6eyJpZCI6IjIzNDkwNDUwNTQ3Mjk6MTFAcy53aGF0c2FwcC5uZXQiLCJuYW1lIjoiTGVnZW5kIEtpbmcifSwiYWNjb3VudCI6eyJkZXRhaWxzIjoiQ082Nm5MMENFTldJNkxFR0dBRWdBQ2dBIiwiYWNjb3VudFNpZ25hdHVyZUtleSI6IjJZUkFQQUFKaHBQOTYyZmpKaGZSOCtaUGF2NmxUU1Blc3RLSHpvajZiM3M9IiwiYWNjb3VudFNpZ25hdHVyZSI6IkVyTURRSkR5OEpINEw0R3FvMEtYRElEaGFWZmttWWdtZnJSTkNxUnRIUnk0QVlMVzRJVFo2cWxqa1FscFZ4N0dXVGh1dCt2am8rY0JReHpWc3ZkOUF3PT0iLCJkZXZpY2VTaWduYXR1cmUiOiJWTGRMN0YreVpOck1uSkttWXpYSDhMUFMwSWVQUVlUZEtENXhIcERrWXRGWVFOeTlUOERtcTJVVU5RU0FFQzRUVU9pdGNEWk1jOUxiNUhQcUt2Rmhodz09In0sInNpZ25hbElkZW50aXRpZXMiOlt7ImlkZW50aWZpZXIiOnsibmFtZSI6IjIzNDkwNDUwNTQ3Mjk6MTFAcy53aGF0c2FwcC5uZXQiLCJkZXZpY2VJZCI6MH0sImlkZW50aWZpZXJLZXkiOnsidHlwZSI6IkJ1ZmZlciIsImRhdGEiOiJCZG1FUUR3QUNZYVQvZXRuNHlZWDBmUG1UMnIrcFUwajNyTFNoODZJK205NyJ9fV0sInBsYXRmb3JtIjoic21iYSIsImxhc3RBY2NvdW50U3luY1RpbWVzdGFtcCI6MTcxNTA3ODI0MywibXlBcHBTdGF0ZUtleUlkIjoiQUFBQUFEcVcifQ==" ; // PUT your SESSION_ID 
 
 
 module.exports = {
@@ -107,7 +107,7 @@ module.exports = {
   author : process.env.PACK_AUTHER|| "SilvaTech",
   packname: process.env.PACK_NAME || "WhatsappBots♥️",
   botname : process.env.BOT_NAME  || "silva-ᴍᴅ",
-  ownername:process.env.OWNER_NAME|| "silva Tech",
+  ownername:process.env.OWNER_NAME|| "Legend king",
 
 
   errorChat : process.env.ERROR_CHAT || "",
